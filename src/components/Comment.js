@@ -6,7 +6,7 @@ class Comment extends Component {
 
       <li className="comment">
         <img src={this.props.data.author.avatar} />
-        <div id="comment_content"><strong>{this.props.data.author.name}</strong>{this.props.data.content}</div>
+        <div id="comment_content"><strong>{this.props.data.author.name} </strong>{this.props.data.content}</div>
       </li>
     );
   }
